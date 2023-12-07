@@ -3,115 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML homework</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-   <h1 style="color: rgb(179, 15, 124);">Examples of All HTML tags and their attributes </h1>
-   <hr>
-   <P>1. This is an example of paragraph tag</P>
-   <p>2. Example for h1-h6 heading tag:</p>
-   <h1>My Homework 1</h1>
-   <h2>My Homework 2</h2>
-   <h3>My Homework 3</h3>
-   <h4>My Homework 4</h4>
-   <h5>My Homework 5</h5>
-   <h6>My Homework 6</h6>
-   <p>3. Example for Hyperlink Tag:</p>
-   <a href="https://www.google.com" target="_blank">Google</a>
-   <p>4. Example for Image tag:</p>
-   <img src="https://www.shutterstock.com/shutterstock/photos/2338985289/display_1500/stock-photo-east-java-indonesia-july-monkey-d-luffy-from-anime-one-piece-in-wpap-pop-art-style-2338985289.jpg" height="300" alt="Luffy Image">
-   <p>5. Example of Ordered List: </p>
-   <ol>Fruits:
-    <li>Mango</li>
-    <li>Apple</li>
-    <li>Grapes</li>
-   </ol>
-   <p>6. Example for Unordered list:</p>
-   <ul>Vegetables:
-    <li>Tomato</li>
-    <li>Potato</li>
-    <li>Brinjal</li>
-   </ul>
-   <p>7. Example of Strong Tag: I am a big fan of <strong>Anime</strong></p>
-   <p>8. Example of Table Tag:</p>
-   <table border="1">
-    <caption>Family Data:</caption>
-    <thead>
-    <tr>
-      <th>Name</th>
-      <th>Age</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>Om</td>
-      <td>24</td>
-    </tr>
-    <tr>
-      <td>Pooja</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <td>Krushna</td>
-      <td>17</td>
-    </tr>
-    </thead>
-   </table>
-   <p>9. Example for Subscript and Superscript Tag respectively:  </p>
-   <p>3<sup>2</sup>X 9<sup>3</sup>=6561</p>
-   <p>Formulae for water is H<sub>2</sub>O</p>
-   <p>10. Example for iframe tag:</p>
-   <iframe width="500" height="300" src="https://www.youtube.com/embed/8l1ddsBPpYM?si=DES4fiOKOyCSr9RT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   <p>11. Example for Forms:</p>
-   <form action="action.php">
-    <h1>Registration Form:</h1>
-    <label for="Username">Username:
-    <input type="text" placeholder="Username"></label>
-    <br><br>
-    <label for="password">Password:
-    <input type="password" placeholder="Password"></label>
-    <br><br>
-    <label for="email-address">Email:
-    <input type="email" placeholder="Email"></label>
-    <br><br>
-    <label for="Birthdate">Date of birth:
-    <input type="date" name="date of birth" id="1DOB"></label>
-    <br><br>
-    <label for="contact details">Mobile No.:
-    <input type="tel" placeholder="Mobile No."></label>
-    <br><br>
-    <label for="101">Select Gender:
-    <input type="radio" value="Male" name="gender" id="101" class="inputbox">Male
-    <label for="102">
-    <input type="radio" value="Female" name="gender" id="102" class="inputbox">Female</label>
-    <br><br>
-    <label for="sub1">Select required subject:
-      <br>
-    <input type="checkbox" value="Maths" name="subject" id="sub1" class="inputbox">Maths</label>
-    <br>
-    <label for="sub2">
-    <input type="checkbox" value="Physics" name="subject" id="sub2" class="inputbox">Physics</label>
-    <br>
-    <label for="sub3">
-    <input type="checkbox" value="Chemistry" name="subject" id="sub3" class="inputbox">Chemistry</label>
-    <br>
-    <label for="sub4">
-    <input type="checkbox" value="Biology" name="subject" id="sub4" class="inputbox">Biology</label>
-    <br><br>
-    <label for="city">Select your City:
-    <select name="City" id="city">
-      <option value="Sambhajinagar">Sambhajinagar</option>
-      <option value="Nasik">Nasik</option>
-      <option value="Pune">Pune</option>
-      <option value="Mumbai">Mumbai</option>
-    </select></label>
-    <br><br>
-    <label for="textarea">Inquiry:
-      <textarea name="Textarea" id="textarea" placeholder="Ask your questions here..."></textarea>
-    </label>
-    <br><br>
-    <input type="submit" value="Submit">
-   </form>
-
+    <section>
+     <div class="login-box">
+         <form action="">
+          <h2>Login</h2>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+            <div class="remember-forgot">
+              <label><input type="checkbox">Remember me</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit">Login</button>
+            <div class="register-link">
+              <p> Don't have an account?<a href="#">Register</a></p>
+            </div>
+         </form>
+     </div>
+    </section>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

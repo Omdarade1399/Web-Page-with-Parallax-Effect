@@ -20,7 +20,7 @@ h1{
     font-weight: bold;
     font-variant: small-caps;
     color: #fff;
-    text-shadow: 4px 5px 2px #000;
+    text-shadow: 3px 4px 2px #000;
     text-decoration: 2px underline;
     text-underline-offset: 20px;
 }
@@ -30,7 +30,7 @@ h2{
     font-weight: bold;
     font-variant: small-caps;
     color: #fff;
-    text-shadow: 2px 4px 2px #000;
+    text-shadow: 2px 3px 2px #000;
 }
 
 .section-4{
